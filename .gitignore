@@ -27,3 +27,9 @@
 *.exe
 *.out
 *.app
+
+# Directories
+KartotekaKontrahentow/bin/
+KartotekaKontrahentow/obj/
+KartotekaKontrahentow.Test/bin/
+KartotekaKontrahentow.Test/obj/
