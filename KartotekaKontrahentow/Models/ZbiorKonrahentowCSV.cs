@@ -39,6 +39,11 @@ namespace KartotekaKontrahentow.Models
                 .FirstOrDefault();
         }
 
+        public IEnumerable<Kontrahent> PobierzWszystkich()
+        {
+            return zbior.ToArray();
+        }
+
         public void Zapisz()
         {
             var plik = new StreamWriter(filename, false);

@@ -13,5 +13,6 @@ namespace KartotekaKontrahentow.Models
         void Zapisz();
         void Wczytaj();
         Kontrahent WyszukajPoId(Guid id);
+        IEnumerable<Kontrahent> PobierzWszystkich();
     }
 }
